@@ -1,0 +1,65 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+body{
+    font-family: 'Inter', sans-serif;
+}
+
+#output-box{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+}
+
+#output-box{
+    border: 2px solid black;
+    border-radius: 0.2rem;
+    width: 150px;
+    min-height: 20px;
+    padding: 0.5rem;
+    margin-top: 0.5rem;
+}
+
+.container{
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    width: 50vw;
+    background-color: cornflowerblue;
+}
+
+.container{
+    padding: 2rem;
+    border-radius: 0.2rem;
+}
+
+label{
+    margin-top: 1rem;
+    font-weight: bold;
+}
+
+input{
+    border-radius: 0.2rem;
+    width: 50%;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-weight: bold;
+
+}
+
+button{
+    width: 20vw;
+    padding: auto;
+    margin: auto;
+    text-align: center;
+    font-weight: bolder;
+    font-size: larger;
+}
+
+button{
+    margin-top: 1rem;
+    padding: 0.3rem;
+    border-radius: 0.2rem;
+}
