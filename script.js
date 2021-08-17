@@ -4,6 +4,8 @@ var checkDate = document.querySelector("#check-date");
 var outputBox = document.querySelector("#output-box");
 
 function checkBirthdayIsLucky(){
+    outputBox.style.display = "none";
+
   const dob = dateOfBirth.value;
   const sum = calculateSum(dob);
   compareValues(sum,luckyNumber.value);
@@ -24,15 +26,18 @@ function compareValues(sum,luckyNumber){
 
     if(sum,luckyNumber)
    { if(sum%luckyNumber==0){
+    outputBox.style.display = "block";
         outputBox.innerHTML = "Your Birthday is Lucky🥳";
     }
 
     else {
+        outputBox.style.display = "block";
         outputBox.innerHTML = "Your Birthday is not that Lucky🙁";
     }
 }
 
 else{
+    outputBox.style.display = "block";
     outputBox.innerHTML = "Please fill all the fields🧐";
 }
 

@@ -11,12 +11,14 @@ body{
 }
 
 #output-box{
-    border: 2px solid black;
-    border-radius: 0.2rem;
+    /* border: 2px solid black;
+    border-radius: 0.2rem; */
     width: 150px;
     min-height: 20px;
     padding: 0.5rem;
     margin-top: 0.5rem;
+    font-size: larger;
+    font-weight:bold ;
 }
 
 .container{
@@ -56,6 +58,7 @@ button{
     text-align: center;
     font-weight: bolder;
     font-size: larger;
+    transition: 0.5s;
 }
 
 button{
@@ -63,3 +66,4 @@ button{
     padding: 0.3rem;
     border-radius: 0.2rem;
 }
+
