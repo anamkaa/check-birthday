@@ -10,4 +10,5 @@
 * Go to above mentioned url
 * Enter your date of birth and your lucky number
 * If the sum of your birth date is completely divisible by your lucky number then your birthday is lucky.
+
 Note: This app is just for fun purpose and does not store any of your information.
