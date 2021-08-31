@@ -1,10 +1,10 @@
 # Is Your Birthday Lucky?
-*This is a web app build using VanillaJs to check whether your birthday is lucky or not.
+* This is a web app build using VanillaJs to check whether your birthday is lucky or not.
 ---
 # Technology used:
-*HTML
-*CSS
-*Javascript
+* HTML
+* CSS
+* Javascript
 ---
 # How to use:
 * Go to above mentioned url
