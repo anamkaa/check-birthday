@@ -17,8 +17,6 @@ body{
 }
 
 #output-box{
-    /* border: 2px solid black;
-    border-radius: 0.2rem; */
     width: 150px;
     min-height: 20px;
     padding: 0.5rem;
@@ -33,7 +31,7 @@ body{
     text-align: center;
     display: flex;
     flex-direction: column;
-    width: 50vw;
+    max-width: 50%;
     
 }
 
@@ -51,6 +49,7 @@ label{
 input{
     border-radius: 0.2rem;
     width: 50%;
+    border: none;
     padding: auto;
     margin: auto;
     text-align: center;
@@ -60,26 +59,30 @@ input{
 }
 
 button{
-    width: 20vw;
+    max-width: 18rem;
     padding: auto;
     margin: auto;
     text-align: center;
     font-weight: bolder;
     font-size: larger;
-    transition: 0.5s;
+    transition: 0.3s;
     background-color: #4F46E5;
+    border: none;
 }
 
 button{
     margin-top: 1rem;
     padding: 0.3rem;
     border-radius: 0.2rem;
+    border-color: lightskyblue;
+   
 }
 
 button:hover{
     font-size: x-large;
     background-color:lightskyblue;
     color: white;
+
 }
 
 
@@ -125,5 +128,9 @@ button:hover{
 .footer .ul 
 {
     padding-inline-start: 0;
+}
+
+.fab:hover{
+    color: lightskyblue;
 }
 
