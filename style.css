@@ -110,8 +110,7 @@ button:hover{
     padding: auto;
     margin: auto;
     text-align: center;
-    background-color:#4F46E5 ;
-    /* color: ; */
+    background-color:#4F46E5;
     border-bottom-right-radius: 1rem;
     position: fixed;
     bottom:0 ;
